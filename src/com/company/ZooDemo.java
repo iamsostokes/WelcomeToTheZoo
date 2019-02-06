@@ -12,7 +12,7 @@ public class ZooDemo {
 //        A Pen should have (2) properties: a collection of Animals and a collection of BabyAnimals. I think I'm done???
 //
 //                Animal should have at least (3) properties (such as "species", "size", "gender"). Animal should have a
-//                parameterized constructor.
+//                parameterized constructor. I think I'm done???
 //
 //                BabyAnimal should inherit from Animal and should have at least (1) additional instance variable.
 //                BabyAnimal should have a parameterized constructor that calls its superclass to construct part of a
