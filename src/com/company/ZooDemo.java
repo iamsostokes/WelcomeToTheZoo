@@ -1,5 +1,6 @@
 package com.company;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class ZooDemo {
@@ -70,8 +71,44 @@ public class ZooDemo {
                     case removePen:
                         break;
                     case addAnimalToPen:
+
+                        Animal animal = new Animal("","","");
+
+                        System.out.println("What is the species name that you would like to add?");
+                        zooKeeperInput = scan.nextLine();
+                        animal.setSpecies(zooKeeperInput);
+
+                        System.out.println("What is the size of the animal?");
+                        zooKeeperInput = scan.nextLine();
+                        animal.setSize(zooKeeperInput);
+
+                        System.out.println("What is the gender of the animal?");
+                        zooKeeperInput = scan.nextLine();
+                        animal.setGender(zooKeeperInput);
+
+                        pen.addAnimalToPen(animal);
+
+
                         break;
                     case addBabyAnimalToPen:
+                        BabyAnimal babyAnimal = new BabyAnimal("", "", "", "");
+
+                        System.out.println("What is the species name for the Baby Animal?");
+                        zooKeeperInput = scan.nextLine();
+                        babyAnimal.setSpecies(zooKeeperInput);
+
+                        System.out.println("what is the size of the Baby Animal");
+                        zooKeeperInput = scan.nextLine();
+                        babyAnimal.setSize(zooKeeperInput);
+
+                        System.out.println("What is the gender of the Baby Animal?");
+                        zooKeeperInput = scan.nextLine();
+                        babyAnimal.setGender(zooKeeperInput);
+
+                        System.out.println("What is the age of the Baby Animal?");
+                        zooKeeperInput = scan.nextLine();
+                        babyAnimal.setAge(zooKeeperInput);
+
                         break;
                     case removeAnimalOrBabyAnimal:
                         break;
