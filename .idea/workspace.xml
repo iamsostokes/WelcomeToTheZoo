@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e239cb09-5997-44d8-994e-46a612989cb5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/BabyAnimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/BabyAnimal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/ZooDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/ZooDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/ZooDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="11" column="120" selection-start-line="11" selection-start-column="120" selection-end-line="11" selection-end-column="120" />
+            <state relative-caret-position="316">
+              <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
             </state>
           </provider>
         </entry>
@@ -43,11 +41,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Animal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+            <state relative-caret-position="120">
+              <caret line="8" column="63" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="63" />
+              <folding>
+                <element signature="e#157#158#0" expanded="true" />
+                <element signature="e#187#188#0" expanded="true" />
+                <element signature="e#233#234#0" expanded="true" />
+                <element signature="e#271#272#0" expanded="true" />
+                <element signature="e#302#303#0" expanded="true" />
+                <element signature="e#329#330#0" expanded="true" />
+                <element signature="e#369#370#0" expanded="true" />
+                <element signature="e#401#402#0" expanded="true" />
+                <element signature="e#434#435#0" expanded="true" />
+                <element signature="e#463#464#0" expanded="true" />
+                <element signature="e#507#508#0" expanded="true" />
+                <element signature="e#543#544#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -55,8 +67,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/BabyAnimal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+            <state relative-caret-position="90">
+              <caret line="6" column="79" selection-start-line="6" selection-start-column="79" selection-end-line="6" selection-end-column="79" />
+              <folding>
+                <element signature="e#105#106#0" expanded="true" />
+                <element signature="e#131#132#0" expanded="true" />
+                <element signature="e#169#170#0" expanded="true" />
+                <element signature="e#199#200#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -79,14 +97,15 @@
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
         <option value="$PROJECT_DIR$/src/com/company/Zoo.java" />
         <option value="$PROJECT_DIR$/src/com/company/Pen.java" />
-        <option value="$PROJECT_DIR$/src/com/company/ZooDemo.java" />
         <option value="$PROJECT_DIR$/src/com/company/Animal.java" />
+        <option value="$PROJECT_DIR$/src/com/company/BabyAnimal.java" />
+        <option value="$PROJECT_DIR$/src/com/company/ZooDemo.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="34" />
-    <option name="y" value="29" />
+    <option name="x" value="283" />
+    <option name="y" value="120" />
     <option name="width" value="1384" />
     <option name="height" value="791" />
   </component>
@@ -125,7 +144,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549465394124" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549467007740" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -161,16 +180,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1549464253873</updated>
-      <workItem from="1549464256461" duration="1037000" />
+      <workItem from="1549464256461" duration="2501000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1037000" />
+    <option name="totallyTimeSpent" value="2501000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="34" y="29" width="1384" height="791" extended-state="0" />
-    <editor active="true" />
+    <frame x="283" y="120" width="1384" height="791" extended-state="0" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -182,7 +200,7 @@
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32904148" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32904148" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -208,22 +226,14 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/company/BabyAnimal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Pen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/ZooDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="11" column="120" selection-start-line="11" selection-start-column="120" selection-end-line="11" selection-end-column="120" />
+        <state relative-caret-position="90">
+          <caret line="6" column="79" selection-start-line="6" selection-start-column="79" selection-end-line="6" selection-end-column="79" />
+          <folding>
+            <element signature="e#105#106#0" expanded="true" />
+            <element signature="e#131#132#0" expanded="true" />
+            <element signature="e#169#170#0" expanded="true" />
+            <element signature="e#199#200#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -234,10 +244,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Pen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Animal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        <state relative-caret-position="120">
+          <caret line="8" column="63" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="63" />
+          <folding>
+            <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#369#370#0" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/ZooDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
         </state>
       </provider>
     </entry>

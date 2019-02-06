@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.Scanner;
+
 public class ZooDemo {
 
     public static void main(String[] args) {
@@ -14,9 +16,9 @@ public class ZooDemo {
 //                Animal should have at least (3) properties (such as "species", "size", "gender"). Animal should have a
 //                parameterized constructor. I think I'm done???
 //
-//                BabyAnimal should inherit from Animal and should have at least (1) additional instance variable.
+//                BabyAnimal should inherit from Animal and should have at least (1) additional instance variable. done
 //                BabyAnimal should have a parameterized constructor that calls its superclass to construct part of a
-//                BabyAnimal object.
+//                BabyAnimal object. done
 //
 //                Write a program in ZooDemo that allows the zookeeper to:
 //        Set up new Pens
@@ -34,6 +36,63 @@ public class ZooDemo {
 //        Your program should include an additional class, Habitat, which should be a property of Animal & BabyAnimal
 //        and should describe what the animal's habitat is like (desert, forest, hot, cold, etc.).
 //
+
+        Scanner scan = new Scanner(System.in);
+        String zooKeeperInput;
+        Zoo zoo = new Zoo();
+        Pen pen = new Pen();
+        final String setUpPen = "1";
+        final String removePen = "2";
+        final String addAnimalToPen = "3";
+        final String addBabyAnimalToPen = "4";
+        final String removeAnimalOrBabyAnimal = "5";
+        final String displayPens = "6";
+        final String displayZoo = "7";
+
+
+        do {
+
+            System.out.println("__________Hello Zookeeper__________");
+            System.out.println("What would you like to do? Please enter a number to select your option.\n" +
+                    "1.Set up a Pen\n" +
+                    "2.Remove a Pen\n" +
+                    "3.Add a Animal to a Pen\n" +
+                    "4.Add a Baby Animal to a Pen\n" +
+                    "5.Remove Animal and Baby Animal from Pens\n" +
+                    "6.Display all Animals in a Pen\n" +
+                    "7.Display all Animals in a Zoo");
+
+            zooKeeperInput = scan.nextLine();
+
+                switch (zooKeeperInput){
+                    case setUpPen:
+                        break;
+                    case removePen:
+                        break;
+                    case addAnimalToPen:
+                        break;
+                    case addBabyAnimalToPen:
+                        break;
+                    case removeAnimalOrBabyAnimal:
+                        break;
+                    case displayPens:
+                        break;
+                    case displayZoo:
+                        break;
+
+
+
+                }
+
+
+
+
+
+
+        } while (false);
+
+
+
 
 
     }
