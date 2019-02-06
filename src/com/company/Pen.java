@@ -7,7 +7,6 @@ public class Pen {
     ArrayList<Animal> animals = new ArrayList<>();
 
 
-
     ArrayList<BabyAnimal> babyAnimals = new ArrayList<>();
 
     public void addAnimalToPen(Animal animal) {
@@ -15,6 +14,22 @@ public class Pen {
     }
 
     public void addBabyAnimalToPen(BabyAnimal babyAnimal) {
-        animals.add(babyAnimal);
+        babyAnimals.add(babyAnimal);
     }
+
+
+    public void viewAllAnimals() {
+        for (int i = 0; i < animals.size(); i++) {
+            animals.get(i).printAnimalDetails();
+        }
+
+    }
+
+    public void viewAllBabyAnimals() {
+        for (int i = 0; i < babyAnimals.size(); i++) {
+            babyAnimals.get(i).printBabyAnimalDetails();
+        }
+
+    }
+
 }

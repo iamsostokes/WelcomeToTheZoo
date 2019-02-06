@@ -67,6 +67,8 @@ public class ZooDemo {
 
                 switch (zooKeeperInput){
                     case setUpPen:
+
+
                         break;
                     case removePen:
                         break;
@@ -109,10 +111,14 @@ public class ZooDemo {
                         zooKeeperInput = scan.nextLine();
                         babyAnimal.setAge(zooKeeperInput);
 
+                        pen.addBabyAnimalToPen(babyAnimal);
+
                         break;
                     case removeAnimalOrBabyAnimal:
                         break;
                     case displayPens:
+                        pen.viewAllAnimals();
+                        pen.viewAllBabyAnimals();
                         break;
                     case displayZoo:
                         break;

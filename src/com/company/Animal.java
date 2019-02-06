@@ -12,6 +12,10 @@ public class Animal {
         this.gender = gender;
     }
 
+    public void printAnimalDetails() {
+        System.out.println(species + " " + size + " " + gender);
+    }
+
     public String getSpecies() {
         return species;
     }

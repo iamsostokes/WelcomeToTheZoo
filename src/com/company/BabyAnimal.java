@@ -9,6 +9,10 @@ public class BabyAnimal extends Animal{
         this.age = age;
     }
 
+    public void printBabyAnimalDetails() {
+        System.out.println(getSpecies() + " " + getSize() + " " + getGender() + "" + age);
+    }
+
     public String getAge() {
         return age;
     }
@@ -16,4 +20,7 @@ public class BabyAnimal extends Animal{
     public void setAge(String age) {
         this.age = age;
     }
+
+
+
 }
